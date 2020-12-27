@@ -2,3 +2,7 @@ zeus:
   cloud:
     author: cupid
     profile: dev
+# 启用hystrix
+feign:
+  hystrix:
+    enabled: true

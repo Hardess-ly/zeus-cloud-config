@@ -2,3 +2,8 @@ zeus:
   cloud:
     author: liuyu
     profile: test
+
+# 启用hystrix
+feign:
+  hystrix:
+    enabled: true
